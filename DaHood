@@ -1,0 +1,452 @@
+
+--Well why are you here? here (https://discord.gg/8jPVFNVEUE *for key* )
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Enter = Instance.new("TextButton")
+local Key = Instance.new("TextBox")
+local TextLabel = Instance.new("TextLabel")
+local discord = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Main = Instance.new("Frame")
+local Gui = Instance.new("Frame")
+local Watermark = Instance.new("TextLabel")
+local Farmhospital = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local loopvoidyourself = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Farmshoe = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local SeverHop = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local discord_2 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local loopmute = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local guns = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local bank = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local rocket = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local remove = Instance.new("TextButton")
+local add = Instance.new("TextButton")
+
+
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.378547907, 0, 0.246520877, 0)
+Frame.Size = UDim2.new(0, 232, 0, 207)
+
+Enter.Name = "Enter"
+Enter.Parent = Frame
+Enter.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+Enter.Position = UDim2.new(0.193489864, 0, 0.774649143, 0)
+Enter.Size = UDim2.new(0, 142, 0, 31)
+Enter.Font = Enum.Font.SourceSans
+Enter.Text = "Enter"
+Enter.TextColor3 = Color3.fromRGB(170, 0, 0)
+Enter.TextScaled = true
+Enter.TextSize = 14.000
+Enter.TextWrapped = true
+
+Key.Name = "Key"
+Key.Parent = Frame
+Key.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+Key.Position = UDim2.new(0.192596018, 0, 0.466715217, 0)
+Key.Size = UDim2.new(0, 142, 0, 28)
+Key.Font = Enum.Font.SourceSans
+Key.PlaceholderText = "Enter key here"
+Key.Text = ""
+Key.TextColor3 = Color3.fromRGB(0, 0, 0)
+Key.TextSize = 14.000
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.062967889, 0, 0.222222224, 0)
+TextLabel.Size = UDim2.new(0, 217, 0, 32)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Da Hood "
+TextLabel.TextColor3 = Color3.fromRGB(255, 96, 16)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+discord.Name = "discord"
+discord.Parent = Frame
+discord.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
+discord.Position = UDim2.new(-0.00187341101, 0, 0.0612478592, 0)
+discord.Size = UDim2.new(0, 232, 0, 23)
+discord.Font = Enum.Font.SourceSans
+discord.Text = "Discord (for key)"
+discord.TextColor3 = Color3.fromRGB(0, 0, 0)
+discord.TextSize = 14.000
+
+UICorner.Parent = discord
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Main.BackgroundTransparency = 0.200
+Main.BorderSizePixel = 5
+Main.Position = UDim2.new(0.36500001, 0, 0.400000006, 0)
+Main.Size = UDim2.new(0, 230, 0, 26)
+Main.Visible = false
+
+Gui.Name = "Gui"
+Gui.Parent = Main
+Gui.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Gui.BackgroundTransparency = 0.200
+Gui.BorderSizePixel = 5
+Gui.Position = UDim2.new(0.00364061445, 0, 1.30006349, 0)
+Gui.Size = UDim2.new(0, 230, 0, 222)
+
+Watermark.Name = "Water mark"
+Watermark.Parent = Gui
+Watermark.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Watermark.BackgroundTransparency = 1.000
+Watermark.Position = UDim2.new(0.00434782635, 0, 0.769896626, 0)
+Watermark.Size = UDim2.new(0, 232, 0, 50)
+Watermark.Font = Enum.Font.SourceSans
+Watermark.Text = "@just a pufferfish#6969"
+Watermark.TextColor3 = Color3.fromRGB(255, 255, 255)
+Watermark.TextScaled = true
+Watermark.TextSize = 14.000
+Watermark.TextWrapped = true
+
+Farmhospital.Name = "Farm hospital"
+Farmhospital.Parent = Gui
+Farmhospital.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+Farmhospital.BackgroundTransparency = 0.200
+Farmhospital.Position = UDim2.new(-0.00304353144, 0, -0.00348622096, 0)
+Farmhospital.Size = UDim2.new(0, 73, 0, 52)
+Farmhospital.Font = Enum.Font.SourceSans
+Farmhospital.Text = "Farm hospital"
+Farmhospital.TextColor3 = Color3.fromRGB(0, 0, 0)
+Farmhospital.TextScaled = true
+Farmhospital.TextSize = 14.000
+Farmhospital.TextTransparency = 0.200
+Farmhospital.TextWrapped = true
+
+UICorner_2.Parent = Farmhospital
+
+loopvoidyourself.Name = "loop void yourself"
+loopvoidyourself.Parent = Gui
+loopvoidyourself.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+loopvoidyourself.BackgroundTransparency = 0.200
+loopvoidyourself.Position = UDim2.new(-0.00304352678, 0, 0.257775038, 0)
+loopvoidyourself.Size = UDim2.new(0, 67, 0, 52)
+loopvoidyourself.Font = Enum.Font.SourceSans
+loopvoidyourself.Text = "loop void yourself"
+loopvoidyourself.TextColor3 = Color3.fromRGB(0, 0, 0)
+loopvoidyourself.TextScaled = true
+loopvoidyourself.TextSize = 14.000
+loopvoidyourself.TextTransparency = 0.200
+loopvoidyourself.TextWrapped = true
+
+UICorner_3.Parent = loopvoidyourself
+
+Farmshoe.Name = "Farm shoe"
+Farmshoe.Parent = Gui
+Farmshoe.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+Farmshoe.BackgroundTransparency = 0.200
+Farmshoe.Position = UDim2.new(0.679565191, 0, -0.00348622096, 0)
+Farmshoe.Size = UDim2.new(0, 73, 0, 52)
+Farmshoe.Font = Enum.Font.SourceSans
+Farmshoe.Text = "Farm shoe"
+Farmshoe.TextColor3 = Color3.fromRGB(0, 0, 0)
+Farmshoe.TextScaled = true
+Farmshoe.TextSize = 14.000
+Farmshoe.TextTransparency = 0.200
+Farmshoe.TextWrapped = true
+
+UICorner_4.Parent = Farmshoe
+
+SeverHop.Name = "SeverHop"
+SeverHop.Parent = Gui
+SeverHop.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+SeverHop.BackgroundTransparency = 0.200
+SeverHop.Position = UDim2.new(0.353478193, 0, 0.257775038, 0)
+SeverHop.Size = UDim2.new(0, 67, 0, 52)
+SeverHop.Font = Enum.Font.SourceSans
+SeverHop.Text = "SeverHop"
+SeverHop.TextColor3 = Color3.fromRGB(0, 0, 0)
+SeverHop.TextScaled = true
+SeverHop.TextSize = 14.000
+SeverHop.TextTransparency = 0.200
+SeverHop.TextWrapped = true
+
+UICorner_5.Parent = SeverHop
+
+discord_2.Name = "discord"
+discord_2.Parent = Gui
+discord_2.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+discord_2.BackgroundTransparency = 0.200
+discord_2.Position = UDim2.new(0.353478193, 0, -0.00348615227, 0)
+discord_2.Size = UDim2.new(0, 67, 0, 52)
+discord_2.Modal = true
+discord_2.Font = Enum.Font.SourceSans
+discord_2.Text = "Discord sever"
+discord_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+discord_2.TextScaled = true
+discord_2.TextSize = 14.000
+discord_2.TextTransparency = 0.200
+discord_2.TextWrapped = true
+
+UICorner_6.Parent = discord_2
+
+loopmute.Name = "loopmute"
+loopmute.Parent = Gui
+loopmute.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+loopmute.BackgroundTransparency = 0.200
+loopmute.Position = UDim2.new(0.705652118, 0, 0.257775038, 0)
+loopmute.Size = UDim2.new(0, 67, 0, 52)
+loopmute.Font = Enum.Font.SourceSans
+loopmute.Text = "loop mute all"
+loopmute.TextColor3 = Color3.fromRGB(0, 0, 0)
+loopmute.TextScaled = true
+loopmute.TextSize = 14.000
+loopmute.TextTransparency = 0.200
+loopmute.TextWrapped = true
+
+UICorner_7.Parent = loopmute
+
+guns.Name = "guns"
+guns.Parent = Gui
+guns.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+guns.BackgroundTransparency = 0.200
+guns.Position = UDim2.new(-0.00304353144, 0, 0.622639954, 0)
+guns.Size = UDim2.new(0, 67, 0, 40)
+guns.Font = Enum.Font.SourceSans
+guns.Text = "Goto Guns"
+guns.TextColor3 = Color3.fromRGB(0, 0, 0)
+guns.TextScaled = true
+guns.TextSize = 14.000
+guns.TextTransparency = 0.200
+guns.TextWrapped = true
+
+UICorner_8.Parent = guns
+
+bank.Name = "bank"
+bank.Parent = Gui
+bank.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+bank.BackgroundTransparency = 0.200
+bank.Position = UDim2.new(0.353478193, 0, 0.622639954, 0)
+bank.Size = UDim2.new(0, 67, 0, 40)
+bank.Font = Enum.Font.SourceSans
+bank.Text = "Goto bank"
+bank.TextColor3 = Color3.fromRGB(0, 0, 0)
+bank.TextScaled = true
+bank.TextSize = 14.000
+bank.TextTransparency = 0.200
+bank.TextWrapped = true
+
+UICorner_9.Parent = bank
+
+rocket.Name = "rocket"
+rocket.Parent = Gui
+rocket.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+rocket.BackgroundTransparency = 0.200
+rocket.Position = UDim2.new(0.705652118, 0, 0.622639954, 0)
+rocket.Size = UDim2.new(0, 67, 0, 40)
+rocket.Font = Enum.Font.SourceSans
+rocket.Text = "Goto rocket launcher"
+rocket.TextColor3 = Color3.fromRGB(0, 0, 0)
+rocket.TextScaled = true
+rocket.TextSize = 14.000
+rocket.TextTransparency = 0.200
+rocket.TextWrapped = true
+
+UICorner_10.Parent = rocket
+
+remove.Name = "remove"
+remove.Parent = Main
+remove.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+remove.BackgroundTransparency = 0.500
+remove.Size = UDim2.new(0, 34, 0, 26)
+remove.Font = Enum.Font.SourceSans
+remove.Text = "-"
+remove.TextColor3 = Color3.fromRGB(255, 255, 255)
+remove.TextScaled = true
+remove.TextSize = 14.000
+remove.TextWrapped = true
+
+add.Name = "add"
+add.Parent = Main
+add.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+add.BackgroundTransparency = 0.500
+add.Size = UDim2.new(0, 34, 0, 26)
+add.Visible = false
+add.Font = Enum.Font.SourceSans
+add.Text = "+"
+add.TextColor3 = Color3.fromRGB(255, 255, 255)
+add.TextScaled = true
+add.TextSize = 14.000
+add.TextWrapped = true
+
+
+local function XYZIYL_fake_script() 
+	local script = Instance.new('Script', ScreenGui)
+
+	local Main = script.Parent.Main 
+	
+	Main.Draggable = true
+	Main.Active = true
+	
+end
+coroutine.wrap(XYZIYL_fake_script)()
+local function QWTQWL_fake_script()  
+	local script = Instance.new('LocalScript', Enter)
+
+	local key = script.Parent.Parent.Key
+	local enter = script.Parent.Parent.Enter
+	
+	enter.MouseButton1Click:Connect(function()
+		
+		if key.Text == "HuTjfEjguG" then
+			wait(2)
+			script.Parent.Parent.Parent.Frame.Visible = false
+			script.Parent.Parent.Parent.Main.Visible = true
+			wait(1)
+			script.Parent.Parent.Parent.Frame:Destroy()
+		
+		end
+	end)
+end
+coroutine.wrap(QWTQWL_fake_script)()
+local function PNJUV_fake_script() 
+	local script = Instance.new('Script', discord)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/bdDThDpP'),true))()
+	end)
+end
+coroutine.wrap(PNJUV_fake_script)()
+local function NOOAC_fake_script() 
+	local script = Instance.new('Script', discord)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.discord.Text = "Copied to ClipBoard"
+		wait(2)
+		script.Parent.Parent.discord.Text = "Discord sever (for key)"
+	end)
+end
+coroutine.wrap(NOOAC_fake_script)()
+local function QLTJG_fake_script() 
+	local script = Instance.new('Script', ScreenGui)
+
+	local frame = script.Parent.Frame 
+	
+	frame.Draggable = true
+	frame.Active = true
+	
+end
+coroutine.wrap(QLTJG_fake_script)()
+local function VLNAF_fake_script()  
+	local script = Instance.new('Script', Farmhospital)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/v4FXNSgF'),true))()
+	end)
+end
+coroutine.wrap(VLNAF_fake_script)()
+local function PGXNAZI_fake_script()
+	local script = Instance.new('Script', loopvoidyourself)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/EveVhTU9'),true))()
+	end)
+end
+coroutine.wrap(PGXNAZI_fake_script)()
+local function ZLYNGX_fake_script() 
+	local script = Instance.new('Script', Farmshoe)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SenseiJoshy/Extras/main/DaHood%20ShoeFarm.lua"))()
+	end)
+end
+coroutine.wrap(ZLYNGX_fake_script)()
+local function KNDYEBH_fake_script() 
+	local script = Instance.new('Script', SeverHop)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/3ZUneMNy'),true))()
+	end)
+end
+coroutine.wrap(KNDYEBH_fake_script)()
+local function MUAWS_fake_script() 
+	local script = Instance.new('Script', discord_2)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/bdDThDpP'),true))()
+	end)
+end
+coroutine.wrap(MUAWS_fake_script)()
+local function CPYCA_fake_script() 
+	local script = Instance.new('Script', discord_2)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.discord.Text = "Copied to ClipBoard"
+		wait(2)
+		script.Parent.Parent.discord.Text = "Discord sever"
+	end)
+end
+coroutine.wrap(CPYCA_fake_script)()
+local function KRDG_fake_script() 
+	local script = Instance.new('Script', loopmute)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/m6r1cKtk'),true))()
+	end)
+end
+coroutine.wrap(KRDG_fake_script)()
+local function ZJVJ_fake_script()  
+	local script = Instance.new('Script', guns)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/EXM3Dt1g'),true))()
+	end)
+end
+coroutine.wrap(ZJVJ_fake_script)()
+local function MUNAK_fake_script()
+	local script = Instance.new('Script', bank)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/M7U04KDE'),true))()
+	end)
+end
+coroutine.wrap(MUNAK_fake_script)()
+local function FHIOUJU_fake_script()
+	local script = Instance.new('Script', rocket)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/VXVtyFFk'),true))()
+	end)
+end
+coroutine.wrap(FHIOUJU_fake_script)()
+local function EORPGIW_fake_script() 
+	local script = Instance.new('Script', remove)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Gui.Visible = false
+		script.Parent.Parent.add.Visible = true
+		script.Parent.Parent.remove.Visible = false
+	end)
+end
+coroutine.wrap(EORPGIW_fake_script)()
+local function GNRFLVZ_fake_script() 
+	local script = Instance.new('Script', add)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Gui.Visible = true
+		script.Parent.Parent.add.Visible = false
+		script.Parent.Parent.remove.Visible = true
+	end)
+end
+coroutine.wrap(GNRFLVZ_fake_script)()
