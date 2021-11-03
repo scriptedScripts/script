@@ -1,3 +1,7 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
@@ -38,22 +42,20 @@ local Noclip = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
 local ESP = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
-local destroy = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
 local CTRL = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
 local vault = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local remove = Instance.new("TextButton")
 local add = Instance.new("TextButton")
 local Frame = Instance.new("Frame")
 local discord_2 = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local Key = Instance.new("TextBox")
 local Enter = Instance.new("TextButton")
 
-
+--Properties:
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -370,22 +372,6 @@ ESP.TextWrapped = true
 
 UICorner_17.Parent = ESP
 
-destroy.Name = "destroy"
-destroy.Parent = Gui
-destroy.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-destroy.BackgroundTransparency = 0.200
-destroy.Position = UDim2.new(0.790770829, 0, -0.00889162533, 0)
-destroy.Size = UDim2.new(0, 60, 0, 52)
-destroy.Font = Enum.Font.SourceSans
-destroy.Text = "Destroy UI"
-destroy.TextColor3 = Color3.fromRGB(0, 0, 0)
-destroy.TextScaled = true
-destroy.TextSize = 14.000
-destroy.TextTransparency = 0.200
-destroy.TextWrapped = true
-
-UICorner_18.Parent = destroy
-
 CTRL.Name = "CTRL"
 CTRL.Parent = Gui
 CTRL.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
@@ -400,7 +386,7 @@ CTRL.TextSize = 14.000
 CTRL.TextTransparency = 0.200
 CTRL.TextWrapped = true
 
-UICorner_19.Parent = CTRL
+UICorner_18.Parent = CTRL
 
 vault.Name = "vault"
 vault.Parent = Gui
@@ -416,7 +402,7 @@ vault.TextSize = 14.000
 vault.TextTransparency = 0.200
 vault.TextWrapped = true
 
-UICorner_20.Parent = vault
+UICorner_19.Parent = vault
 
 remove.Name = "remove"
 remove.Parent = Main
@@ -458,7 +444,7 @@ discord_2.Text = "Discord (for key)"
 discord_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 discord_2.TextSize = 14.000
 
-UICorner_21.Parent = discord_2
+UICorner_20.Parent = discord_2
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -497,7 +483,7 @@ Enter.TextWrapped = true
 
 -- Scripts:
 
-local function NRBM_fake_script() -- ScreenGui.Script 
+local function KMTFM_fake_script() -- ScreenGui.Script 
 	local script = Instance.new('Script', ScreenGui)
 
 	local Main = script.Parent.Main -- Change this to your GUI name
@@ -506,48 +492,48 @@ local function NRBM_fake_script() -- ScreenGui.Script
 	Main.Active = true
 	
 end
-coroutine.wrap(NRBM_fake_script)()
-local function DFCTDSC_fake_script() -- Farmhospital.main 
+coroutine.wrap(KMTFM_fake_script)()
+local function VRMTJM_fake_script() -- Farmhospital.main 
 	local script = Instance.new('Script', Farmhospital)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/v4FXNSgF'),true))()
 	end)
 end
-coroutine.wrap(DFCTDSC_fake_script)()
-local function KURPP_fake_script() -- loopvoidyourself.main 
+coroutine.wrap(VRMTJM_fake_script)()
+local function SQUPW_fake_script() -- loopvoidyourself.main 
 	local script = Instance.new('Script', loopvoidyourself)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/EveVhTU9'),true))()
 	end)
 end
-coroutine.wrap(KURPP_fake_script)()
-local function NKXVQCH_fake_script() -- Farmshoe.main 
+coroutine.wrap(SQUPW_fake_script)()
+local function GMBCG_fake_script() -- Farmshoe.main 
 	local script = Instance.new('Script', Farmshoe)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/SenseiJoshy/Extras/main/DaHood%20ShoeFarm.lua"))()
 	end)
 end
-coroutine.wrap(NKXVQCH_fake_script)()
-local function JFVBQH_fake_script() -- SeverHop.main 
+coroutine.wrap(GMBCG_fake_script)()
+local function OITZXQ_fake_script() -- SeverHop.main 
 	local script = Instance.new('Script', SeverHop)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/3ZUneMNy'),true))()
 	end)
 end
-coroutine.wrap(JFVBQH_fake_script)()
-local function CNVDD_fake_script() -- discord.main 
+coroutine.wrap(OITZXQ_fake_script)()
+local function MYZIG_fake_script() -- discord.main 
 	local script = Instance.new('Script', discord)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/bdDThDpP'),true))()
 	end)
 end
-coroutine.wrap(CNVDD_fake_script)()
-local function KKFQVT_fake_script() -- discord.copied 
+coroutine.wrap(MYZIG_fake_script)()
+local function HSNIWKF_fake_script() -- discord.copied 
 	local script = Instance.new('Script', discord)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -556,128 +542,120 @@ local function KKFQVT_fake_script() -- discord.copied
 		script.Parent.Parent.discord.Text = "Discord sever"
 	end)
 end
-coroutine.wrap(KKFQVT_fake_script)()
-local function NCIOXM_fake_script() -- loopmute.main 
+coroutine.wrap(HSNIWKF_fake_script)()
+local function UKWXOMS_fake_script() -- loopmute.main 
 	local script = Instance.new('Script', loopmute)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/m6r1cKtk'),true))()
 	end)
 end
-coroutine.wrap(NCIOXM_fake_script)()
-local function LFOB_fake_script() -- guns.main 
+coroutine.wrap(UKWXOMS_fake_script)()
+local function QMUIRE_fake_script() -- guns.main 
 	local script = Instance.new('Script', guns)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/EXM3Dt1g'),true))()
 	end)
 end
-coroutine.wrap(LFOB_fake_script)()
-local function HHKSVDR_fake_script() -- bank.main 
+coroutine.wrap(QMUIRE_fake_script)()
+local function NKIXHL_fake_script() -- bank.main 
 	local script = Instance.new('Script', bank)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/M7U04KDE'),true))()
 	end)
 end
-coroutine.wrap(HHKSVDR_fake_script)()
-local function SEABRU_fake_script() -- rocket.main 
+coroutine.wrap(NKIXHL_fake_script)()
+local function ZKSR_fake_script() -- rocket.main 
 	local script = Instance.new('Script', rocket)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/VXVtyFFk'),true))()
 	end)
 end
-coroutine.wrap(SEABRU_fake_script)()
-local function GEVLUUI_fake_script() -- tps.main 
+coroutine.wrap(ZKSR_fake_script)()
+local function ORZVJO_fake_script() -- tps.main 
 	local script = Instance.new('Script', tps)
 
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.Tps.Visible = true
 	end)
 end
-coroutine.wrap(GEVLUUI_fake_script)()
-local function KVWITC_fake_script() -- Phone.main 
+coroutine.wrap(ORZVJO_fake_script)()
+local function NLEC_fake_script() -- Phone.main 
 	local script = Instance.new('Script', Phone)
 
 	script.Parent.MouseButton1Click:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-122.52713012695, 22.125370025635, -873.95684814453)
 	end)
 end
-coroutine.wrap(KVWITC_fake_script)()
-local function OBTXB_fake_script() -- Close.main 
+coroutine.wrap(NLEC_fake_script)()
+local function ZWHTEXY_fake_script() -- Close.main 
 	local script = Instance.new('Script', Close)
 
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.Parent.Tps.Visible = false
 	end)
 end
-coroutine.wrap(OBTXB_fake_script)()
-local function ULVXZ_fake_script() -- DaFur.main 
+coroutine.wrap(ZWHTEXY_fake_script)()
+local function KLSWLH_fake_script() -- DaFur.main 
 	local script = Instance.new('Script', DaFur)
 
 	script.Parent.MouseButton1Click:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-490.26382446289, 22.074695587158, -114.9740447998)
 	end)
 end
-coroutine.wrap(ULVXZ_fake_script)()
-local function DGHI_fake_script() -- HoodKicks.main 
+coroutine.wrap(KLSWLH_fake_script)()
+local function QHJOMYC_fake_script() -- HoodKicks.main 
 	local script = Instance.new('Script', HoodKicks)
 
 	script.Parent.MouseButton1Click:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-205.07341003418, 22.036581039429, -409.54064941406)
 	end)
 end
-coroutine.wrap(DGHI_fake_script)()
-local function SBSR_fake_script() -- anitafk.main 
+coroutine.wrap(QHJOMYC_fake_script)()
+local function NDHSI_fake_script() -- anitafk.main 
 	local script = Instance.new('Script', anitafk)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/QyVFh8Vh'),true))()
 	end)
 end
-coroutine.wrap(SBSR_fake_script)()
-local function ZMCSU_fake_script() -- Noclip.main 
+coroutine.wrap(NDHSI_fake_script)()
+local function GOAJV_fake_script() -- Noclip.main 
 	local script = Instance.new('Script', Noclip)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/wiU3XSBU'),true))()
 	end)
 end
-coroutine.wrap(ZMCSU_fake_script)()
-local function USUYG_fake_script() -- ESP.main 
+coroutine.wrap(GOAJV_fake_script)()
+local function VTYTCOX_fake_script() -- ESP.main 
 	local script = Instance.new('Script', ESP)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/GGrLn6dv'),true))()
 	end)
 end
-coroutine.wrap(USUYG_fake_script)()
-local function MSXLR_fake_script() -- destroy.main 
-	local script = Instance.new('Script', destroy)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Parent.Parent.Main:Destroy()
-	end)
-end
-coroutine.wrap(MSXLR_fake_script)()
-local function UENAGC_fake_script() -- CTRL.main 
+coroutine.wrap(VTYTCOX_fake_script)()
+local function TSTQUOZ_fake_script() -- CTRL.main 
 	local script = Instance.new('Script', CTRL)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/s9RU0AeX'),true))()
 	end)
 end
-coroutine.wrap(UENAGC_fake_script)()
-local function WDOVQ_fake_script() -- vault.main 
+coroutine.wrap(TSTQUOZ_fake_script)()
+local function EFXHYXI_fake_script() -- vault.main 
 	local script = Instance.new('Script', vault)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/f4Ub1dvi'),true))()
 	end)
 end
-coroutine.wrap(WDOVQ_fake_script)()
-local function AVRSQ_fake_script() -- remove.Script 
+coroutine.wrap(EFXHYXI_fake_script)()
+local function UINTAQ_fake_script() -- remove.Script 
 	local script = Instance.new('Script', remove)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -686,8 +664,8 @@ local function AVRSQ_fake_script() -- remove.Script
 		script.Parent.Parent.remove.Visible = false
 	end)
 end
-coroutine.wrap(AVRSQ_fake_script)()
-local function ODBPGZ_fake_script() -- add.Script 
+coroutine.wrap(UINTAQ_fake_script)()
+local function BXUMZB_fake_script() -- add.Script 
 	local script = Instance.new('Script', add)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -696,8 +674,8 @@ local function ODBPGZ_fake_script() -- add.Script
 		script.Parent.Parent.remove.Visible = true
 	end)
 end
-coroutine.wrap(ODBPGZ_fake_script)()
-local function JPILB_fake_script() -- discord_2.copied 
+coroutine.wrap(BXUMZB_fake_script)()
+local function WSDTUG_fake_script() -- discord_2.copied 
 	local script = Instance.new('Script', discord_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -706,16 +684,16 @@ local function JPILB_fake_script() -- discord_2.copied
 		script.Parent.Parent.discord.Text = "Discord sever (for key)"
 	end)
 end
-coroutine.wrap(JPILB_fake_script)()
-local function LSZHTAG_fake_script() -- discord_2.main 
+coroutine.wrap(WSDTUG_fake_script)()
+local function AATODBA_fake_script() -- discord_2.main 
 	local script = Instance.new('Script', discord_2)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/bdDThDpP'),true))()
 	end)
 end
-coroutine.wrap(LSZHTAG_fake_script)()
-local function BCIFD_fake_script() -- Enter.LocalScript 
+coroutine.wrap(AATODBA_fake_script)()
+local function VHWQBLO_fake_script() -- Enter.LocalScript 
 	local script = Instance.new('LocalScript', Enter)
 
 	local key = script.Parent.Parent.Key
@@ -733,8 +711,8 @@ local function BCIFD_fake_script() -- Enter.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BCIFD_fake_script)()
-local function BOWCLK_fake_script() -- ScreenGui.Script 
+coroutine.wrap(VHWQBLO_fake_script)()
+local function LXDNI_fake_script() -- ScreenGui.Script 
 	local script = Instance.new('Script', ScreenGui)
 
 	local frame = script.Parent.Frame -- Change this to your GUI name
@@ -743,4 +721,4 @@ local function BOWCLK_fake_script() -- ScreenGui.Script
 	frame.Active = true
 	
 end
-coroutine.wrap(BOWCLK_fake_script)()
+coroutine.wrap(LXDNI_fake_script)()
