@@ -1,79 +1,465 @@
 
+
 local ScreenGui = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
-local discord = Instance.new("TextButton")
+local Main = Instance.new("Frame")
+local Gui = Instance.new("Frame")
+local Watermark = Instance.new("TextLabel")
+local Farmhospital = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
+local loopvoidyourself = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Farmshoe = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local SeverHop = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local discord = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local loopmute = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local guns = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local bank = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local rocket = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local tps = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Tps = Instance.new("Frame")
+local Phone = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local DaFur = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local HoodKicks = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local anitafk = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Noclip = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local ESP = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local destroy = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local CTRL = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local vault = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local remove = Instance.new("TextButton")
+local add = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local discord_2 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local Key = Instance.new("TextBox")
 local Enter = Instance.new("TextButton")
-local Main = Instance.new("Frame")
-local add = Instance.new("TextButton")
-local remove = Instance.new("TextButton")
-local Gui = Instance.new("Frame")
-local vault = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
-local CTRL = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local destroy = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
-local ESP = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local Noclip = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
-local anitafk = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local Tps = Instance.new("Frame")
-local HoodKicks = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local DaFur = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local Close = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local Phone = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local tps = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local rocket = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local bank = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local guns = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local loopmute = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
-local discord_2 = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local SeverHop = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
-local Farmshoe = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local loopvoidyourself = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
-local Farmhospital = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local Watermark = Instance.new("TextLabel")
 
---Properties:
+
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Main.BackgroundTransparency = 0.200
+Main.BorderSizePixel = 5
+Main.Position = UDim2.new(0.372125924, 0, 0.189264417, 0)
+Main.Size = UDim2.new(0, 293, 0, 26)
+
+Gui.Name = "Gui"
+Gui.Parent = Main
+Gui.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Gui.BackgroundTransparency = 0.200
+Gui.BorderSizePixel = 5
+Gui.Position = UDim2.new(0.00364061445, 0, 1.30006325, 0)
+Gui.Size = UDim2.new(0, 291, 0, 255)
+
+Watermark.Name = "Water mark"
+Watermark.Parent = Gui
+Watermark.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Watermark.BackgroundTransparency = 1.000
+Watermark.Position = UDim2.new(0, 0, 0.816955447, 0)
+Watermark.Size = UDim2.new(0, 291, 0, 50)
+Watermark.Font = Enum.Font.SourceSans
+Watermark.Text = "@just a pufferfish#6969"
+Watermark.TextColor3 = Color3.fromRGB(255, 255, 255)
+Watermark.TextScaled = true
+Watermark.TextSize = 14.000
+Watermark.TextWrapped = true
+
+Farmhospital.Name = "Farm hospital"
+Farmhospital.Parent = Gui
+Farmhospital.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+Farmhospital.BackgroundTransparency = 0.200
+Farmhospital.Position = UDim2.new(-0.00304353144, 0, -0.00348622096, 0)
+Farmhospital.Size = UDim2.new(0, 73, 0, 52)
+Farmhospital.Font = Enum.Font.SourceSans
+Farmhospital.Text = "Farm hospital"
+Farmhospital.TextColor3 = Color3.fromRGB(0, 0, 0)
+Farmhospital.TextScaled = true
+Farmhospital.TextSize = 14.000
+Farmhospital.TextTransparency = 0.200
+Farmhospital.TextWrapped = true
+
+UICorner.Parent = Farmhospital
+
+loopvoidyourself.Name = "loop void yourself"
+loopvoidyourself.Parent = Gui
+loopvoidyourself.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+loopvoidyourself.BackgroundTransparency = 0.200
+loopvoidyourself.Position = UDim2.new(-0.00304352678, 0, 0.257775038, 0)
+loopvoidyourself.Size = UDim2.new(0, 67, 0, 52)
+loopvoidyourself.Font = Enum.Font.SourceSans
+loopvoidyourself.Text = "loop void yourself"
+loopvoidyourself.TextColor3 = Color3.fromRGB(0, 0, 0)
+loopvoidyourself.TextScaled = true
+loopvoidyourself.TextSize = 14.000
+loopvoidyourself.TextTransparency = 0.200
+loopvoidyourself.TextWrapped = true
+
+UICorner_2.Parent = loopvoidyourself
+
+Farmshoe.Name = "Farm shoe"
+Farmshoe.Parent = Gui
+Farmshoe.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+Farmshoe.BackgroundTransparency = 0.200
+Farmshoe.Position = UDim2.new(0.545544624, 0, -0.00348624424, 0)
+Farmshoe.Size = UDim2.new(0, 56, 0, 52)
+Farmshoe.Font = Enum.Font.SourceSans
+Farmshoe.Text = "Farm shoe"
+Farmshoe.TextColor3 = Color3.fromRGB(0, 0, 0)
+Farmshoe.TextScaled = true
+Farmshoe.TextSize = 14.000
+Farmshoe.TextTransparency = 0.200
+Farmshoe.TextWrapped = true
+
+UICorner_3.Parent = Farmshoe
+
+SeverHop.Name = "SeverHop"
+SeverHop.Parent = Gui
+SeverHop.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+SeverHop.BackgroundTransparency = 0.200
+SeverHop.Position = UDim2.new(0.250385404, 0, 0.257775038, 0)
+SeverHop.Size = UDim2.new(0, 67, 0, 52)
+SeverHop.Font = Enum.Font.SourceSans
+SeverHop.Text = "SeverHop"
+SeverHop.TextColor3 = Color3.fromRGB(0, 0, 0)
+SeverHop.TextScaled = true
+SeverHop.TextSize = 14.000
+SeverHop.TextTransparency = 0.200
+SeverHop.TextWrapped = true
+
+UICorner_4.Parent = SeverHop
+
+discord.Name = "discord"
+discord.Parent = Gui
+discord.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+discord.BackgroundTransparency = 0.200
+discord.Position = UDim2.new(0.274440378, 0, -0.00740772113, 0)
+discord.Size = UDim2.new(0, 67, 0, 52)
+discord.Modal = true
+discord.Font = Enum.Font.SourceSans
+discord.Text = "Discord sever"
+discord.TextColor3 = Color3.fromRGB(0, 0, 0)
+discord.TextScaled = true
+discord.TextSize = 14.000
+discord.TextTransparency = 0.200
+discord.TextWrapped = true
+
+UICorner_5.Parent = discord
+
+loopmute.Name = "loopmute"
+loopmute.Parent = Gui
+loopmute.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+loopmute.BackgroundTransparency = 0.200
+loopmute.Position = UDim2.new(0.509775817, 0, 0.257775038, 0)
+loopmute.Size = UDim2.new(0, 67, 0, 52)
+loopmute.Font = Enum.Font.SourceSans
+loopmute.Text = "loop mute all"
+loopmute.TextColor3 = Color3.fromRGB(0, 0, 0)
+loopmute.TextScaled = true
+loopmute.TextSize = 14.000
+loopmute.TextTransparency = 0.200
+loopmute.TextWrapped = true
+
+UICorner_6.Parent = loopmute
+
+guns.Name = "guns"
+guns.Parent = Gui
+guns.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+guns.BackgroundTransparency = 0.200
+guns.Position = UDim2.new(-0.00739135733, 0, 0.697149754, 0)
+guns.Size = UDim2.new(0, 67, 0, 40)
+guns.Font = Enum.Font.SourceSans
+guns.Text = "Goto Guns"
+guns.TextColor3 = Color3.fromRGB(0, 0, 0)
+guns.TextScaled = true
+guns.TextSize = 14.000
+guns.TextTransparency = 0.200
+guns.TextWrapped = true
+
+UICorner_7.Parent = guns
+
+bank.Name = "bank"
+bank.Parent = Gui
+bank.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+bank.BackgroundTransparency = 0.200
+bank.Position = UDim2.new(0.249474004, 0, 0.697149754, 0)
+bank.Size = UDim2.new(0, 67, 0, 40)
+bank.Font = Enum.Font.SourceSans
+bank.Text = "Goto bank"
+bank.TextColor3 = Color3.fromRGB(0, 0, 0)
+bank.TextScaled = true
+bank.TextSize = 14.000
+bank.TextTransparency = 0.200
+bank.TextWrapped = true
+
+UICorner_8.Parent = bank
+
+rocket.Name = "rocket"
+rocket.Parent = Gui
+rocket.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+rocket.BackgroundTransparency = 0.200
+rocket.Position = UDim2.new(0.509775817, 0, 0.697149754, 0)
+rocket.Size = UDim2.new(0, 67, 0, 40)
+rocket.Font = Enum.Font.SourceSans
+rocket.Text = "Goto rocket launcher"
+rocket.TextColor3 = Color3.fromRGB(0, 0, 0)
+rocket.TextScaled = true
+rocket.TextSize = 14.000
+rocket.TextTransparency = 0.200
+rocket.TextWrapped = true
+
+UICorner_9.Parent = rocket
+
+tps.Name = "tps"
+tps.Parent = Gui
+tps.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+tps.BackgroundTransparency = 0.200
+tps.Position = UDim2.new(-0.00739135733, 0, 0.48538506, 0)
+tps.Size = UDim2.new(0, 67, 0, 41)
+tps.Font = Enum.Font.SourceSans
+tps.Text = "Tp Gui"
+tps.TextColor3 = Color3.fromRGB(0, 0, 0)
+tps.TextScaled = true
+tps.TextSize = 14.000
+tps.TextTransparency = 0.200
+tps.TextWrapped = true
+
+UICorner_10.Parent = tps
+
+Tps.Name = "Tps"
+Tps.Parent = Gui
+Tps.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Tps.BackgroundTransparency = 0.200
+Tps.BorderSizePixel = 5
+Tps.Position = UDim2.new(1.00798845, 0, 0.0106213093, 0)
+Tps.Size = UDim2.new(0, 75, 0, 255)
+Tps.Visible = false
+
+Phone.Name = "Phone"
+Phone.Parent = Tps
+Phone.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+Phone.BackgroundTransparency = 0.200
+Phone.Position = UDim2.new(0.0102898022, 0, -0.00348622096, 0)
+Phone.Size = UDim2.new(0, 73, 0, 52)
+Phone.Font = Enum.Font.SourceSans
+Phone.Text = "Phone Store"
+Phone.TextColor3 = Color3.fromRGB(0, 0, 0)
+Phone.TextScaled = true
+Phone.TextSize = 14.000
+Phone.TextTransparency = 0.200
+Phone.TextWrapped = true
+
+UICorner_11.Parent = Phone
+
+Close.Name = "Close"
+Close.Parent = Tps
+Close.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.0236231349, 0, 0.792592227, 0)
+Close.Size = UDim2.new(0, 73, 0, 52)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextTransparency = 0.200
+Close.TextWrapped = true
+
+UICorner_12.Parent = Close
+
+DaFur.Name = "DaFur"
+DaFur.Parent = Tps
+DaFur.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+DaFur.BackgroundTransparency = 0.200
+DaFur.Position = UDim2.new(0.0236231349, 0, 0.243572608, 0)
+DaFur.Size = UDim2.new(0, 73, 0, 52)
+DaFur.Font = Enum.Font.SourceSans
+DaFur.Text = "Da Furniture"
+DaFur.TextColor3 = Color3.fromRGB(0, 0, 0)
+DaFur.TextScaled = true
+DaFur.TextSize = 14.000
+DaFur.TextTransparency = 0.200
+DaFur.TextWrapped = true
+
+UICorner_13.Parent = DaFur
+
+HoodKicks.Name = "HoodKicks"
+HoodKicks.Parent = Tps
+HoodKicks.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+HoodKicks.BackgroundTransparency = 0.200
+HoodKicks.Position = UDim2.new(0.0236231349, 0, 0.506317735, 0)
+HoodKicks.Size = UDim2.new(0, 73, 0, 52)
+HoodKicks.Font = Enum.Font.SourceSans
+HoodKicks.Text = "Hood Kicks"
+HoodKicks.TextColor3 = Color3.fromRGB(0, 0, 0)
+HoodKicks.TextScaled = true
+HoodKicks.TextSize = 14.000
+HoodKicks.TextTransparency = 0.200
+HoodKicks.TextWrapped = true
+
+UICorner_14.Parent = HoodKicks
+
+anitafk.Name = "anit afk"
+anitafk.Parent = Gui
+anitafk.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+anitafk.BackgroundTransparency = 0.200
+anitafk.Position = UDim2.new(0.244423956, 0, 0.48538506, 0)
+anitafk.Size = UDim2.new(0, 67, 0, 41)
+anitafk.Font = Enum.Font.SourceSans
+anitafk.Text = "Anti Afk"
+anitafk.TextColor3 = Color3.fromRGB(0, 0, 0)
+anitafk.TextScaled = true
+anitafk.TextSize = 14.000
+anitafk.TextTransparency = 0.200
+anitafk.TextWrapped = true
+
+UICorner_15.Parent = anitafk
+
+Noclip.Name = "Noclip"
+Noclip.Parent = Gui
+Noclip.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+Noclip.BackgroundTransparency = 0.200
+Noclip.Position = UDim2.new(0.508864462, 0, 0.48538506, 0)
+Noclip.Size = UDim2.new(0, 67, 0, 41)
+Noclip.Font = Enum.Font.SourceSans
+Noclip.Text = "Noclip \"E\""
+Noclip.TextColor3 = Color3.fromRGB(0, 0, 0)
+Noclip.TextScaled = true
+Noclip.TextSize = 14.000
+Noclip.TextTransparency = 0.200
+Noclip.TextWrapped = true
+
+UICorner_16.Parent = Noclip
+
+ESP.Name = "ESP"
+ESP.Parent = Gui
+ESP.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+ESP.BackgroundTransparency = 0.200
+ESP.Position = UDim2.new(0.766715944, 0, 0.257775038, 0)
+ESP.Size = UDim2.new(0, 67, 0, 52)
+ESP.Font = Enum.Font.SourceSans
+ESP.Text = "Esp"
+ESP.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESP.TextScaled = true
+ESP.TextSize = 14.000
+ESP.TextTransparency = 0.200
+ESP.TextWrapped = true
+
+UICorner_17.Parent = ESP
+
+destroy.Name = "destroy"
+destroy.Parent = Gui
+destroy.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+destroy.BackgroundTransparency = 0.200
+destroy.Position = UDim2.new(0.790770829, 0, -0.00889162533, 0)
+destroy.Size = UDim2.new(0, 60, 0, 52)
+destroy.Font = Enum.Font.SourceSans
+destroy.Text = "Destroy UI"
+destroy.TextColor3 = Color3.fromRGB(0, 0, 0)
+destroy.TextScaled = true
+destroy.TextSize = 14.000
+destroy.TextTransparency = 0.200
+destroy.TextWrapped = true
+
+UICorner_18.Parent = destroy
+
+CTRL.Name = "CTRL"
+CTRL.Parent = Gui
+CTRL.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+CTRL.BackgroundTransparency = 0.200
+CTRL.Position = UDim2.new(0.766596437, 0, 0.48538506, 0)
+CTRL.Size = UDim2.new(0, 67, 0, 41)
+CTRL.Font = Enum.Font.SourceSans
+CTRL.Text = "Ctrl click Tp"
+CTRL.TextColor3 = Color3.fromRGB(0, 0, 0)
+CTRL.TextScaled = true
+CTRL.TextSize = 14.000
+CTRL.TextTransparency = 0.200
+CTRL.TextWrapped = true
+
+UICorner_19.Parent = CTRL
+
+vault.Name = "vault"
+vault.Parent = Gui
+vault.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
+vault.BackgroundTransparency = 0.200
+vault.Position = UDim2.new(0.764071345, 0, 0.697149754, 0)
+vault.Size = UDim2.new(0, 67, 0, 40)
+vault.Font = Enum.Font.SourceSans
+vault.Text = "Goto bank vault"
+vault.TextColor3 = Color3.fromRGB(0, 0, 0)
+vault.TextScaled = true
+vault.TextSize = 14.000
+vault.TextTransparency = 0.200
+vault.TextWrapped = true
+
+UICorner_20.Parent = vault
+
+remove.Name = "remove"
+remove.Parent = Main
+remove.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+remove.BackgroundTransparency = 0.500
+remove.Size = UDim2.new(0, 34, 0, 26)
+remove.Font = Enum.Font.SourceSans
+remove.Text = "-"
+remove.TextColor3 = Color3.fromRGB(255, 255, 255)
+remove.TextScaled = true
+remove.TextSize = 14.000
+remove.TextWrapped = true
+
+add.Name = "add"
+add.Parent = Main
+add.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+add.BackgroundTransparency = 0.500
+add.Size = UDim2.new(0, 34, 0, 26)
+add.Visible = false
+add.Font = Enum.Font.SourceSans
+add.Text = "+"
+add.TextColor3 = Color3.fromRGB(255, 255, 255)
+add.TextScaled = true
+add.TextSize = 14.000
+add.TextWrapped = true
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.Position = UDim2.new(0.378547907, 0, 0.246520877, 0)
 Frame.Size = UDim2.new(0, 232, 0, 207)
+Frame.Visible = false
 
-discord.Name = "discord"
-discord.Parent = Frame
-discord.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
-discord.Position = UDim2.new(-0.00187341101, 0, 0.0612478592, 0)
-discord.Size = UDim2.new(0, 232, 0, 23)
-discord.Font = Enum.Font.SourceSans
-discord.Text = "Discord (for key)"
-discord.TextColor3 = Color3.fromRGB(0, 0, 0)
-discord.TextSize = 14.000
+discord_2.Name = "discord"
+discord_2.Parent = Frame
+discord_2.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
+discord_2.Position = UDim2.new(-0.00187341101, 0, 0.0612478592, 0)
+discord_2.Size = UDim2.new(0, 232, 0, 23)
+discord_2.Font = Enum.Font.SourceSans
+discord_2.Text = "Discord (for key)"
+discord_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+discord_2.TextSize = 14.000
 
-UICorner.Parent = discord
+UICorner_21.Parent = discord_2
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -110,395 +496,210 @@ Enter.TextScaled = true
 Enter.TextSize = 14.000
 Enter.TextWrapped = true
 
-Main.Name = "Main"
-Main.Parent = ScreenGui
-Main.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
-Main.BackgroundTransparency = 0.200
-Main.BorderSizePixel = 5
-Main.Position = UDim2.new(0.372125924, 0, 0.189264417, 0)
-Main.Size = UDim2.new(0, 293, 0, 26)
-Main.Visible = false
-
-add.Name = "add"
-add.Parent = Main
-add.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-add.BackgroundTransparency = 0.500
-add.Size = UDim2.new(0, 34, 0, 26)
-add.Visible = false
-add.Font = Enum.Font.SourceSans
-add.Text = "+"
-add.TextColor3 = Color3.fromRGB(255, 255, 255)
-add.TextScaled = true
-add.TextSize = 14.000
-add.TextWrapped = true
-
-remove.Name = "remove"
-remove.Parent = Main
-remove.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-remove.BackgroundTransparency = 0.500
-remove.Size = UDim2.new(0, 34, 0, 26)
-remove.Font = Enum.Font.SourceSans
-remove.Text = "-"
-remove.TextColor3 = Color3.fromRGB(255, 255, 255)
-remove.TextScaled = true
-remove.TextSize = 14.000
-remove.TextWrapped = true
-
-Gui.Name = "Gui"
-Gui.Parent = Main
-Gui.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
-Gui.BackgroundTransparency = 0.200
-Gui.BorderSizePixel = 5
-Gui.Position = UDim2.new(0.00364061445, 0, 1.30006325, 0)
-Gui.Size = UDim2.new(0, 291, 0, 255)
-
-vault.Name = "vault"
-vault.Parent = Gui
-vault.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-vault.BackgroundTransparency = 0.200
-vault.Position = UDim2.new(0.764071345, 0, 0.697149754, 0)
-vault.Size = UDim2.new(0, 67, 0, 40)
-vault.Font = Enum.Font.SourceSans
-vault.Text = "Goto bank vault"
-vault.TextColor3 = Color3.fromRGB(0, 0, 0)
-vault.TextScaled = true
-vault.TextSize = 14.000
-vault.TextTransparency = 0.200
-vault.TextWrapped = true
-
-UICorner_2.Parent = vault
-
-CTRL.Name = "CTRL"
-CTRL.Parent = Gui
-CTRL.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-CTRL.BackgroundTransparency = 0.200
-CTRL.Position = UDim2.new(0.766596437, 0, 0.48538506, 0)
-CTRL.Size = UDim2.new(0, 67, 0, 41)
-CTRL.Font = Enum.Font.SourceSans
-CTRL.Text = "Ctrl click Tp"
-CTRL.TextColor3 = Color3.fromRGB(0, 0, 0)
-CTRL.TextScaled = true
-CTRL.TextSize = 14.000
-CTRL.TextTransparency = 0.200
-CTRL.TextWrapped = true
-
-UICorner_3.Parent = CTRL
-
-destroy.Name = "destroy"
-destroy.Parent = Gui
-destroy.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-destroy.BackgroundTransparency = 0.200
-destroy.Position = UDim2.new(0.790770829, 0, -0.00889162533, 0)
-destroy.Size = UDim2.new(0, 60, 0, 52)
-destroy.Font = Enum.Font.SourceSans
-destroy.Text = "Destroy UI"
-destroy.TextColor3 = Color3.fromRGB(0, 0, 0)
-destroy.TextScaled = true
-destroy.TextSize = 14.000
-destroy.TextTransparency = 0.200
-destroy.TextWrapped = true
-
-UICorner_4.Parent = destroy
-
-ESP.Name = "ESP"
-ESP.Parent = Gui
-ESP.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-ESP.BackgroundTransparency = 0.200
-ESP.Position = UDim2.new(0.766715944, 0, 0.257775038, 0)
-ESP.Size = UDim2.new(0, 67, 0, 52)
-ESP.Font = Enum.Font.SourceSans
-ESP.Text = "Esp"
-ESP.TextColor3 = Color3.fromRGB(0, 0, 0)
-ESP.TextScaled = true
-ESP.TextSize = 14.000
-ESP.TextTransparency = 0.200
-ESP.TextWrapped = true
-
-UICorner_5.Parent = ESP
-
-Noclip.Name = "Noclip"
-Noclip.Parent = Gui
-Noclip.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-Noclip.BackgroundTransparency = 0.200
-Noclip.Position = UDim2.new(0.508864462, 0, 0.48538506, 0)
-Noclip.Size = UDim2.new(0, 67, 0, 41)
-Noclip.Font = Enum.Font.SourceSans
-Noclip.Text = "Noclip \"E\""
-Noclip.TextColor3 = Color3.fromRGB(0, 0, 0)
-Noclip.TextScaled = true
-Noclip.TextSize = 14.000
-Noclip.TextTransparency = 0.200
-Noclip.TextWrapped = true
-
-UICorner_6.Parent = Noclip
-
-anitafk.Name = "anit afk"
-anitafk.Parent = Gui
-anitafk.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-anitafk.BackgroundTransparency = 0.200
-anitafk.Position = UDim2.new(0.244423956, 0, 0.48538506, 0)
-anitafk.Size = UDim2.new(0, 67, 0, 41)
-anitafk.Font = Enum.Font.SourceSans
-anitafk.Text = "Anti Afk"
-anitafk.TextColor3 = Color3.fromRGB(0, 0, 0)
-anitafk.TextScaled = true
-anitafk.TextSize = 14.000
-anitafk.TextTransparency = 0.200
-anitafk.TextWrapped = true
-
-UICorner_7.Parent = anitafk
-
-Tps.Name = "Tps"
-Tps.Parent = Gui
-Tps.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
-Tps.BackgroundTransparency = 0.200
-Tps.BorderSizePixel = 5
-Tps.Position = UDim2.new(1.00798845, 0, 0.0106213093, 0)
-Tps.Size = UDim2.new(0, 75, 0, 255)
-Tps.Visible = false
-
-HoodKicks.Name = "HoodKicks"
-HoodKicks.Parent = Tps
-HoodKicks.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-HoodKicks.BackgroundTransparency = 0.200
-HoodKicks.Position = UDim2.new(0.0236231349, 0, 0.506317735, 0)
-HoodKicks.Size = UDim2.new(0, 73, 0, 52)
-HoodKicks.Font = Enum.Font.SourceSans
-HoodKicks.Text = "Hood Kicks"
-HoodKicks.TextColor3 = Color3.fromRGB(0, 0, 0)
-HoodKicks.TextScaled = true
-HoodKicks.TextSize = 14.000
-HoodKicks.TextTransparency = 0.200
-HoodKicks.TextWrapped = true
-
-UICorner_8.Parent = HoodKicks
-
-DaFur.Name = "DaFur"
-DaFur.Parent = Tps
-DaFur.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-DaFur.BackgroundTransparency = 0.200
-DaFur.Position = UDim2.new(0.0236231349, 0, 0.243572608, 0)
-DaFur.Size = UDim2.new(0, 73, 0, 52)
-DaFur.Font = Enum.Font.SourceSans
-DaFur.Text = "Da Furniture"
-DaFur.TextColor3 = Color3.fromRGB(0, 0, 0)
-DaFur.TextScaled = true
-DaFur.TextSize = 14.000
-DaFur.TextTransparency = 0.200
-DaFur.TextWrapped = true
-
-UICorner_9.Parent = DaFur
-
-Close.Name = "Close"
-Close.Parent = Tps
-Close.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-Close.BackgroundTransparency = 1.000
-Close.Position = UDim2.new(0.0236231349, 0, 0.792592227, 0)
-Close.Size = UDim2.new(0, 73, 0, 52)
-Close.Font = Enum.Font.SourceSans
-Close.Text = "Close"
-Close.TextColor3 = Color3.fromRGB(0, 0, 0)
-Close.TextScaled = true
-Close.TextSize = 14.000
-Close.TextTransparency = 0.200
-Close.TextWrapped = true
-
-UICorner_10.Parent = Close
-
-Phone.Name = "Phone"
-Phone.Parent = Tps
-Phone.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-Phone.BackgroundTransparency = 0.200
-Phone.Position = UDim2.new(0.0102898022, 0, -0.00348622096, 0)
-Phone.Size = UDim2.new(0, 73, 0, 52)
-Phone.Font = Enum.Font.SourceSans
-Phone.Text = "Phone Store"
-Phone.TextColor3 = Color3.fromRGB(0, 0, 0)
-Phone.TextScaled = true
-Phone.TextSize = 14.000
-Phone.TextTransparency = 0.200
-Phone.TextWrapped = true
-
-UICorner_11.Parent = Phone
-
-tps.Name = "tps"
-tps.Parent = Gui
-tps.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-tps.BackgroundTransparency = 0.200
-tps.Position = UDim2.new(-0.00739135733, 0, 0.48538506, 0)
-tps.Size = UDim2.new(0, 67, 0, 41)
-tps.Font = Enum.Font.SourceSans
-tps.Text = "Tp Gui"
-tps.TextColor3 = Color3.fromRGB(0, 0, 0)
-tps.TextScaled = true
-tps.TextSize = 14.000
-tps.TextTransparency = 0.200
-tps.TextWrapped = true
-
-UICorner_12.Parent = tps
-
-rocket.Name = "rocket"
-rocket.Parent = Gui
-rocket.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-rocket.BackgroundTransparency = 0.200
-rocket.Position = UDim2.new(0.509775817, 0, 0.697149754, 0)
-rocket.Size = UDim2.new(0, 67, 0, 40)
-rocket.Font = Enum.Font.SourceSans
-rocket.Text = "Goto rocket launcher"
-rocket.TextColor3 = Color3.fromRGB(0, 0, 0)
-rocket.TextScaled = true
-rocket.TextSize = 14.000
-rocket.TextTransparency = 0.200
-rocket.TextWrapped = true
-
-UICorner_13.Parent = rocket
-
-bank.Name = "bank"
-bank.Parent = Gui
-bank.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-bank.BackgroundTransparency = 0.200
-bank.Position = UDim2.new(0.249474004, 0, 0.697149754, 0)
-bank.Size = UDim2.new(0, 67, 0, 40)
-bank.Font = Enum.Font.SourceSans
-bank.Text = "Goto bank"
-bank.TextColor3 = Color3.fromRGB(0, 0, 0)
-bank.TextScaled = true
-bank.TextSize = 14.000
-bank.TextTransparency = 0.200
-bank.TextWrapped = true
-
-UICorner_14.Parent = bank
-
-guns.Name = "guns"
-guns.Parent = Gui
-guns.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-guns.BackgroundTransparency = 0.200
-guns.Position = UDim2.new(-0.00739135733, 0, 0.697149754, 0)
-guns.Size = UDim2.new(0, 67, 0, 40)
-guns.Font = Enum.Font.SourceSans
-guns.Text = "Goto Guns"
-guns.TextColor3 = Color3.fromRGB(0, 0, 0)
-guns.TextScaled = true
-guns.TextSize = 14.000
-guns.TextTransparency = 0.200
-guns.TextWrapped = true
-
-UICorner_15.Parent = guns
-
-loopmute.Name = "loopmute"
-loopmute.Parent = Gui
-loopmute.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-loopmute.BackgroundTransparency = 0.200
-loopmute.Position = UDim2.new(0.509775817, 0, 0.257775038, 0)
-loopmute.Size = UDim2.new(0, 67, 0, 52)
-loopmute.Font = Enum.Font.SourceSans
-loopmute.Text = "loop mute all"
-loopmute.TextColor3 = Color3.fromRGB(0, 0, 0)
-loopmute.TextScaled = true
-loopmute.TextSize = 14.000
-loopmute.TextTransparency = 0.200
-loopmute.TextWrapped = true
-
-UICorner_16.Parent = loopmute
-
-discord_2.Name = "discord"
-discord_2.Parent = Gui
-discord_2.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-discord_2.BackgroundTransparency = 0.200
-discord_2.Position = UDim2.new(0.274440378, 0, -0.00740772113, 0)
-discord_2.Size = UDim2.new(0, 67, 0, 52)
-discord_2.Modal = true
-discord_2.Font = Enum.Font.SourceSans
-discord_2.Text = "Discord sever"
-discord_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-discord_2.TextScaled = true
-discord_2.TextSize = 14.000
-discord_2.TextTransparency = 0.200
-discord_2.TextWrapped = true
-
-UICorner_17.Parent = discord_2
-
-SeverHop.Name = "SeverHop"
-SeverHop.Parent = Gui
-SeverHop.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-SeverHop.BackgroundTransparency = 0.200
-SeverHop.Position = UDim2.new(0.250385404, 0, 0.257775038, 0)
-SeverHop.Size = UDim2.new(0, 67, 0, 52)
-SeverHop.Font = Enum.Font.SourceSans
-SeverHop.Text = "SeverHop"
-SeverHop.TextColor3 = Color3.fromRGB(0, 0, 0)
-SeverHop.TextScaled = true
-SeverHop.TextSize = 14.000
-SeverHop.TextTransparency = 0.200
-SeverHop.TextWrapped = true
-
-UICorner_18.Parent = SeverHop
-
-Farmshoe.Name = "Farm shoe"
-Farmshoe.Parent = Gui
-Farmshoe.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-Farmshoe.BackgroundTransparency = 0.200
-Farmshoe.Position = UDim2.new(0.545544624, 0, -0.00348624424, 0)
-Farmshoe.Size = UDim2.new(0, 56, 0, 52)
-Farmshoe.Font = Enum.Font.SourceSans
-Farmshoe.Text = "Farm shoe"
-Farmshoe.TextColor3 = Color3.fromRGB(0, 0, 0)
-Farmshoe.TextScaled = true
-Farmshoe.TextSize = 14.000
-Farmshoe.TextTransparency = 0.200
-Farmshoe.TextWrapped = true
-
-UICorner_19.Parent = Farmshoe
-
-loopvoidyourself.Name = "loop void yourself"
-loopvoidyourself.Parent = Gui
-loopvoidyourself.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-loopvoidyourself.BackgroundTransparency = 0.200
-loopvoidyourself.Position = UDim2.new(-0.00304352678, 0, 0.257775038, 0)
-loopvoidyourself.Size = UDim2.new(0, 67, 0, 52)
-loopvoidyourself.Font = Enum.Font.SourceSans
-loopvoidyourself.Text = "loop void yourself"
-loopvoidyourself.TextColor3 = Color3.fromRGB(0, 0, 0)
-loopvoidyourself.TextScaled = true
-loopvoidyourself.TextSize = 14.000
-loopvoidyourself.TextTransparency = 0.200
-loopvoidyourself.TextWrapped = true
-
-UICorner_20.Parent = loopvoidyourself
-
-Farmhospital.Name = "Farm hospital"
-Farmhospital.Parent = Gui
-Farmhospital.BackgroundColor3 = Color3.fromRGB(0, 225, 0)
-Farmhospital.BackgroundTransparency = 0.200
-Farmhospital.Position = UDim2.new(-0.00304353144, 0, -0.00348622096, 0)
-Farmhospital.Size = UDim2.new(0, 73, 0, 52)
-Farmhospital.Font = Enum.Font.SourceSans
-Farmhospital.Text = "Farm hospital"
-Farmhospital.TextColor3 = Color3.fromRGB(0, 0, 0)
-Farmhospital.TextScaled = true
-Farmhospital.TextSize = 14.000
-Farmhospital.TextTransparency = 0.200
-Farmhospital.TextWrapped = true
-
-UICorner_21.Parent = Farmhospital
-
-Watermark.Name = "Water mark"
-Watermark.Parent = Gui
-Watermark.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Watermark.BackgroundTransparency = 1.000
-Watermark.Position = UDim2.new(0, 0, 0.816955447, 0)
-Watermark.Size = UDim2.new(0, 291, 0, 50)
-Watermark.Font = Enum.Font.SourceSans
-Watermark.Text = "@just a pufferfish#6969"
-Watermark.TextColor3 = Color3.fromRGB(255, 255, 255)
-Watermark.TextScaled = true
-Watermark.TextSize = 14.000
-Watermark.TextWrapped = true
-
 -- Scripts:
 
-local function FQOZ_fake_script() -- discord.copied 
+local function UDPJR_fake_script() -- ScreenGui.Script 
+	local script = Instance.new('Script', ScreenGui)
+
+	local Main = script.Parent.Main -- Change this to your GUI name
+	
+	Main.Draggable = true
+	Main.Active = true
+	
+end
+coroutine.wrap(UDPJR_fake_script)()
+local function ISYXFEK_fake_script() -- Farmhospital.main 
+	local script = Instance.new('Script', Farmhospital)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/v4FXNSgF'),true))()
+	end)
+end
+coroutine.wrap(ISYXFEK_fake_script)()
+local function RVZE_fake_script() -- loopvoidyourself.main 
+	local script = Instance.new('Script', loopvoidyourself)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/EveVhTU9'),true))()
+	end)
+end
+coroutine.wrap(RVZE_fake_script)()
+local function TAZFZN_fake_script() -- Farmshoe.main 
+	local script = Instance.new('Script', Farmshoe)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SenseiJoshy/Extras/main/DaHood%20ShoeFarm.lua"))()
+	end)
+end
+coroutine.wrap(TAZFZN_fake_script)()
+local function YBPVYJM_fake_script() -- SeverHop.main 
+	local script = Instance.new('Script', SeverHop)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/3ZUneMNy'),true))()
+	end)
+end
+coroutine.wrap(YBPVYJM_fake_script)()
+local function QVXISZ_fake_script() -- discord.main 
 	local script = Instance.new('Script', discord)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/bdDThDpP'),true))()
+	end)
+end
+coroutine.wrap(QVXISZ_fake_script)()
+local function XHUS_fake_script() -- discord.copied 
+	local script = Instance.new('Script', discord)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.discord.Text = "Copied to ClipBoard"
+		wait(2)
+		script.Parent.Parent.discord.Text = "Discord sever"
+	end)
+end
+coroutine.wrap(XHUS_fake_script)()
+local function QTKYCF_fake_script() -- loopmute.main 
+	local script = Instance.new('Script', loopmute)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/m6r1cKtk'),true))()
+	end)
+end
+coroutine.wrap(QTKYCF_fake_script)()
+local function SRZJL_fake_script() -- guns.main 
+	local script = Instance.new('Script', guns)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/EXM3Dt1g'),true))()
+	end)
+end
+coroutine.wrap(SRZJL_fake_script)()
+local function ZKASSC_fake_script() -- bank.main 
+	local script = Instance.new('Script', bank)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/M7U04KDE'),true))()
+	end)
+end
+coroutine.wrap(ZKASSC_fake_script)()
+local function HMKJDX_fake_script() -- rocket.main 
+	local script = Instance.new('Script', rocket)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/VXVtyFFk'),true))()
+	end)
+end
+coroutine.wrap(HMKJDX_fake_script)()
+local function BUHMXZM_fake_script() -- tps.main 
+	local script = Instance.new('Script', tps)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Tps.Visible = true
+	end)
+end
+coroutine.wrap(BUHMXZM_fake_script)()
+local function QOIW_fake_script() -- Phone.main 
+	local script = Instance.new('Script', Phone)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-122.52713012695, 22.125370025635, -873.95684814453)
+	end)
+end
+coroutine.wrap(QOIW_fake_script)()
+local function SIDMH_fake_script() -- Close.main 
+	local script = Instance.new('Script', Close)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent.Tps.Visible = false
+	end)
+end
+coroutine.wrap(SIDMH_fake_script)()
+local function HEYFP_fake_script() -- DaFur.main 
+	local script = Instance.new('Script', DaFur)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-490.26382446289, 22.074695587158, -114.9740447998)
+	end)
+end
+coroutine.wrap(HEYFP_fake_script)()
+local function QGWAJP_fake_script() -- HoodKicks.main 
+	local script = Instance.new('Script', HoodKicks)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-205.07341003418, 22.036581039429, -409.54064941406)
+	end)
+end
+coroutine.wrap(QGWAJP_fake_script)()
+local function PSDB_fake_script() -- anitafk.main 
+	local script = Instance.new('Script', anitafk)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/QyVFh8Vh'),true))()
+	end)
+end
+coroutine.wrap(PSDB_fake_script)()
+local function TSUWHT_fake_script() -- Noclip.main 
+	local script = Instance.new('Script', Noclip)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/wiU3XSBU'),true))()
+	end)
+end
+coroutine.wrap(TSUWHT_fake_script)()
+local function RKYDD_fake_script() -- ESP.main 
+	local script = Instance.new('Script', ESP)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/GGrLn6dv'),true))()
+	end)
+end
+coroutine.wrap(RKYDD_fake_script)()
+local function PRBICI_fake_script() -- destroy.main 
+	local script = Instance.new('Script', destroy)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent.Parent.Main:Destroy()
+	end)
+end
+coroutine.wrap(PRBICI_fake_script)()
+local function UDQZ_fake_script() -- CTRL.main 
+	local script = Instance.new('Script', CTRL)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/s9RU0AeX'),true))()
+	end)
+end
+coroutine.wrap(UDQZ_fake_script)()
+local function UTPNGWV_fake_script() -- vault.main 
+	local script = Instance.new('Script', vault)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/f4Ub1dvi'),true))()
+	end)
+end
+coroutine.wrap(UTPNGWV_fake_script)()
+local function HKIOK_fake_script() -- remove.Script 
+	local script = Instance.new('Script', remove)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Gui.Visible = false
+		script.Parent.Parent.add.Visible = true
+		script.Parent.Parent.remove.Visible = false
+	end)
+end
+coroutine.wrap(HKIOK_fake_script)()
+local function ODEQVHM_fake_script() -- add.Script 
+	local script = Instance.new('Script', add)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Gui.Visible = true
+		script.Parent.Parent.add.Visible = false
+		script.Parent.Parent.remove.Visible = true
+	end)
+end
+coroutine.wrap(ODEQVHM_fake_script)()
+local function RLEQ_fake_script() -- discord_2.copied 
+	local script = Instance.new('Script', discord_2)
 
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.discord.Text = "Copied to ClipBoard"
@@ -506,16 +707,16 @@ local function FQOZ_fake_script() -- discord.copied
 		script.Parent.Parent.discord.Text = "Discord sever (for key)"
 	end)
 end
-coroutine.wrap(FQOZ_fake_script)()
-local function WCPSKQL_fake_script() -- discord.main 
-	local script = Instance.new('Script', discord)
+coroutine.wrap(RLEQ_fake_script)()
+local function ZRWRCQ_fake_script() -- discord_2.main 
+	local script = Instance.new('Script', discord_2)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/bdDThDpP'),true))()
 	end)
 end
-coroutine.wrap(WCPSKQL_fake_script)()
-local function VRHQV_fake_script() -- Enter.LocalScript 
+coroutine.wrap(ZRWRCQ_fake_script)()
+local function UBXZUC_fake_script() -- Enter.LocalScript 
 	local script = Instance.new('LocalScript', Enter)
 
 	local key = script.Parent.Parent.Key
@@ -533,198 +734,8 @@ local function VRHQV_fake_script() -- Enter.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VRHQV_fake_script)()
-local function BAXYQ_fake_script() -- add.Script 
-	local script = Instance.new('Script', add)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Gui.Visible = true
-		script.Parent.Parent.add.Visible = false
-		script.Parent.Parent.remove.Visible = true
-	end)
-end
-coroutine.wrap(BAXYQ_fake_script)()
-local function CFMDX_fake_script() -- remove.Script 
-	local script = Instance.new('Script', remove)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Gui.Visible = false
-		script.Parent.Parent.add.Visible = true
-		script.Parent.Parent.remove.Visible = false
-	end)
-end
-coroutine.wrap(CFMDX_fake_script)()
-local function UELUZ_fake_script() -- vault.main 
-	local script = Instance.new('Script', vault)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/f4Ub1dvi'),true))()
-	end)
-end
-coroutine.wrap(UELUZ_fake_script)()
-local function PMWO_fake_script() -- CTRL.main 
-	local script = Instance.new('Script', CTRL)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/s9RU0AeX'),true))()
-	end)
-end
-coroutine.wrap(PMWO_fake_script)()
-local function FYVD_fake_script() -- destroy.main 
-	local script = Instance.new('Script', destroy)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Parent.Parent.Main:Destroy()
-	end)
-end
-coroutine.wrap(FYVD_fake_script)()
-local function FPPEMU_fake_script() -- ESP.main 
-	local script = Instance.new('Script', ESP)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/GGrLn6dv'),true))()
-	end)
-end
-coroutine.wrap(FPPEMU_fake_script)()
-local function BFSCEMO_fake_script() -- Noclip.main 
-	local script = Instance.new('Script', Noclip)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/wiU3XSBU'),true))()
-	end)
-end
-coroutine.wrap(BFSCEMO_fake_script)()
-local function LATNT_fake_script() -- anitafk.main 
-	local script = Instance.new('Script', anitafk)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/QyVFh8Vh'),true))()
-	end)
-end
-coroutine.wrap(LATNT_fake_script)()
-local function DQZBI_fake_script() -- HoodKicks.main 
-	local script = Instance.new('Script', HoodKicks)
-
-	script.Parent.MouseButton1Click:connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-205.07341003418, 22.036581039429, -409.54064941406)
-	end)
-end
-coroutine.wrap(DQZBI_fake_script)()
-local function FJKCT_fake_script() -- DaFur.main 
-	local script = Instance.new('Script', DaFur)
-
-	script.Parent.MouseButton1Click:connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-490.26382446289, 22.074695587158, -114.9740447998)
-	end)
-end
-coroutine.wrap(FJKCT_fake_script)()
-local function NHJVD_fake_script() -- Close.main 
-	local script = Instance.new('Script', Close)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Parent.Tps.Visible = false
-	end)
-end
-coroutine.wrap(NHJVD_fake_script)()
-local function PUCO_fake_script() -- Phone.main 
-	local script = Instance.new('Script', Phone)
-
-	script.Parent.MouseButton1Click:connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-122.52713012695, 22.125370025635, -873.95684814453)
-	end)
-end
-coroutine.wrap(PUCO_fake_script)()
-local function UFLNSN_fake_script() -- tps.main 
-	local script = Instance.new('Script', tps)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Tps.Visible = true
-	end)
-end
-coroutine.wrap(UFLNSN_fake_script)()
-local function EVOZZ_fake_script() -- rocket.main 
-	local script = Instance.new('Script', rocket)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/VXVtyFFk'),true))()
-	end)
-end
-coroutine.wrap(EVOZZ_fake_script)()
-local function IWFMOQ_fake_script() -- bank.main 
-	local script = Instance.new('Script', bank)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/M7U04KDE'),true))()
-	end)
-end
-coroutine.wrap(IWFMOQ_fake_script)()
-local function EQYQQJ_fake_script() -- guns.main 
-	local script = Instance.new('Script', guns)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/EXM3Dt1g'),true))()
-	end)
-end
-coroutine.wrap(EQYQQJ_fake_script)()
-local function QEXJSPO_fake_script() -- loopmute.main 
-	local script = Instance.new('Script', loopmute)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/m6r1cKtk'),true))()
-	end)
-end
-coroutine.wrap(QEXJSPO_fake_script)()
-local function GWJVKRO_fake_script() -- discord_2.copied 
-	local script = Instance.new('Script', discord_2)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.discord.Text = "Copied to ClipBoard"
-		wait(2)
-		script.Parent.Parent.discord.Text = "Discord sever"
-	end)
-end
-coroutine.wrap(GWJVKRO_fake_script)()
-local function GOYZBTA_fake_script() -- discord_2.main 
-	local script = Instance.new('Script', discord_2)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/bdDThDpP'),true))()
-	end)
-end
-coroutine.wrap(GOYZBTA_fake_script)()
-local function XMYBZ_fake_script() -- SeverHop.main 
-	local script = Instance.new('Script', SeverHop)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/3ZUneMNy'),true))()
-	end)
-end
-coroutine.wrap(XMYBZ_fake_script)()
-local function YCDE_fake_script() -- Farmshoe.main 
-	local script = Instance.new('Script', Farmshoe)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/SenseiJoshy/Extras/main/DaHood%20ShoeFarm.lua"))()
-	end)
-end
-coroutine.wrap(YCDE_fake_script)()
-local function RQWVH_fake_script() -- loopvoidyourself.main 
-	local script = Instance.new('Script', loopvoidyourself)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/EveVhTU9'),true))()
-	end)
-end
-coroutine.wrap(RQWVH_fake_script)()
-local function SPYPQ_fake_script() -- Farmhospital.main 
-	local script = Instance.new('Script', Farmhospital)
-
-	script.Parent.MouseButton1Click:connect(function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/v4FXNSgF'),true))()
-	end)
-end
-coroutine.wrap(SPYPQ_fake_script)()
-local function OBAMLMM_fake_script() -- ScreenGui.Script 
+coroutine.wrap(UBXZUC_fake_script)()
+local function HAYFH_fake_script() -- ScreenGui.Script 
 	local script = Instance.new('Script', ScreenGui)
 
 	local frame = script.Parent.Frame -- Change this to your GUI name
@@ -733,14 +744,4 @@ local function OBAMLMM_fake_script() -- ScreenGui.Script
 	frame.Active = true
 	
 end
-coroutine.wrap(OBAMLMM_fake_script)()
-local function HOCJML_fake_script() -- ScreenGui.Script 
-	local script = Instance.new('Script', ScreenGui)
-
-	local Main = script.Parent.Main -- Change this to your GUI name
-	
-	Main.Draggable = true
-	Main.Active = true
-	
-end
-coroutine.wrap(HOCJML_fake_script)()
+coroutine.wrap(HAYFH_fake_script)()
